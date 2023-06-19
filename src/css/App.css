@@ -1,0 +1,30 @@
+h1{
+    text-transform: capitalize;
+    text-decoration: solid;
+    text-shadow: 1px 1px 5px red;
+    color: rgb(254, 251, 251);
+    font-size: 4.5rem;
+}
+#intButton{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: bisque;
+    color: chocolate;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    background-color: chocolate;
+    color: bisque;
+}
