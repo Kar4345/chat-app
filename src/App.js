@@ -1,17 +1,19 @@
-import logo from "./logo.svg";
+import { BrowserRouter as Router, Routes ,Route, Switch, Link } from 'react-router-dom';
 import "../src/css/App.css";
+import Signup from './components/Signup';
+import Home from '../src/components/Home';
+import Login from './components/Login';
 
 function App() {
   return (
     <>
-      <div>
-        {/* <h1>This is start page of this project!!!</h1> */}
-        <h1>Welcome to MyChat App!</h1>
-      </div>
-      <div id="intButton">
-        <button>Get Started</button>
-        <button>Log in</button>
-      </div>
+     <Router>
+      <Routes>
+        <Route path='/' element={<Home/>}></Route>
+        <Route path='/signup' element={<Signup/>}></Route>
+        <Route path='/login' element={<Login/>}></Route>
+      </Routes>
+     </Router>
     </>
   );
 }

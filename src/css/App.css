@@ -11,7 +11,7 @@ h1{
     align-items: center;
 }
 
-button{
+#start,#log{
     width: 150px;
     height: 50px;
     margin: 10px;
@@ -24,7 +24,7 @@ button{
     border: none;
 }
 
-button:hover{
+#start:hover,#log:hover{
     background-color: chocolate;
     color: bisque;
 }

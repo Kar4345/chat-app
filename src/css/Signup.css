@@ -1,0 +1,113 @@
+#container{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(138, 242, 252);
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 25px;
+    overflow: auto;   
+    
+}
+
+#create{
+    background-color: rgb(66, 66, 250);
+    color: white;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+form{
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#names{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#names > *{
+    margin: 10px;
+}
+
+#mail > *{
+    margin: 10px;
+}
+
+#pass > *{
+    margin: 10px;
+}
+
+#buttonp > *{
+    margin: 10px;
+}
+
+#forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonp{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pre,#conf,#mailc,#first,#last{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    height: 30px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+#back{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+#back:hover{
+    cursor: pointer;
+}
